@@ -1,0 +1,76 @@
+
+Logistic Permutation Importance (All Features):
+11. log_income: 0.209067
+3. housing: 0.122222
+8. log_age_income_interaction: 0.111823
+0. age: 0.082896
+10. age_squared: 0.071640
+9. log_edu_job_interaction: 0.023761
+2. edu: 0.012732
+6. past_bad_credit: 0.006242
+5. job_occupation: 0.003044
+1. gender: 0.000957
+7. married: 0.000862
+4. income: -0.000191
+
+Logistic Permutation Importance (Top 5):
+                   Feature  Importance
+                log_income    0.209067
+                   housing    0.122222
+log_age_income_interaction    0.111823
+                       age    0.082896
+               age_squared    0.071640
+
+Random Forest Permutation Importance (All Features):
+3. housing: 0.090227
+4. income: 0.029378
+2. edu: 0.026034
+5. job_occupation: 0.013173
+7. married: 0.010246
+6. past_bad_credit: 0.009655
+1. gender: 0.000665
+0. age: -0.012783
+
+Random Forest Permutation Importance (Top 5):
+       Feature  Importance
+       housing    0.090227
+        income    0.029378
+           edu    0.026034
+job_occupation    0.013173
+       married    0.010246
+
+LightGBM Permutation Importance (All Features):
+3. housing: 0.133577
+4. income: 0.040923
+7. married: 0.021142
+5. job_occupation: 0.018399
+2. edu: 0.014277
+6. past_bad_credit: 0.005659
+1. gender: 0.002774
+0. age: 0.002769
+
+LightGBM Permutation Importance (Top 5):
+       Feature  Importance
+       housing    0.133577
+        income    0.040923
+       married    0.021142
+job_occupation    0.018399
+           edu    0.014277
+
+SVM Permutation Importance (All Features):
+4. income: 0.092430
+0. age: 0.000011
+7. married: 0.000000
+6. past_bad_credit: 0.000000
+2. edu: 0.000000
+1. gender: -0.000000
+5. job_occupation: -0.000000
+3. housing: -0.000002
+
+SVM Permutation Importance (Top 5):
+        Feature   Importance
+         income 9.243002e-02
+            age 1.088279e-05
+        married 2.220446e-17
+past_bad_credit 1.110223e-17
+            edu 0.000000e+00
